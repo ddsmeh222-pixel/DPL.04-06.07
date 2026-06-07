@@ -16,7 +16,7 @@ public class HolaServlet extends HttpServlet {
             throws ServletException, IOException {
 
 
-        request.setAttribute("mensaje", "¡Hola de parte de David con Git!");
+        request.setAttribute("mensaje", "¡Hola de parte de David usando Git!");
         request.getRequestDispatcher("/hola.jsp").forward(request, response);
     }
 }
